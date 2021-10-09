@@ -15,6 +15,7 @@ public void getDriver(String browser) {
 	} else if (browser.equalsIgnoreCase(("firefox"))){
 		System.setProperty("webdriver.gecko.driver", "");
          driver = new FirefoxDriver();
+         System.out.println("vignesh");
 	}
 }
 public void geturl(String url ) {
