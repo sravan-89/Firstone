@@ -16,6 +16,9 @@ public void getDriver(String browser) {
 		System.setProperty("webdriver.gecko.driver", "");
          driver = new FirefoxDriver();
          System.out.println("vignesh");
+
+         System.out.println("gokulnath");
+
 	}
 }
 public void geturl(String url ) {
